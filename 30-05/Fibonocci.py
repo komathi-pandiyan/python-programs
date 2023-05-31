@@ -1,8 +1,16 @@
-#Write a program that prompts the user to enter a positive integer and calculates the sum of its digits using a while loop.
-num=int(input("Enter a positive integeer"))
-tot=0
-while(num>0):
-    dig=num%10
-    tot=tot+dig
-    num=num//10
-print("The total sum of digits is:",tot)
+n=int(input("How many terms"))
+n1,n2=0,1
+count=0
+if n<=0:
+    print("pls enter positive integer")
+elif n==1:
+    print ("Fibonacci sequencce upto",n,":")
+    print(n1)
+else:
+    print("Fibonacci Sequence:")
+    while count<n:
+     print(n1)
+     nth=n1+n2
+     n1=n2
+     n2=nth
+     count=count+1    
