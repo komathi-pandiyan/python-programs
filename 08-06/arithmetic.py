@@ -1,0 +1,11 @@
+num1=int(input("enter any number"))
+num2=int(input("enter any number"))
+sum = int(num1) + int(num2)  
+sub = (num1) - (num2)  
+mul = (num1) * (num2)  
+div = (num1) / (num2)  
+print('The sum of num is',num1,'and',num2,'is',sum)  
+print('The subtraction of {0} and {1} is {2}'.format(num1, num2, sub))  
+print('The multiplication of {0} and {1} is {2}'.format(num1, num2, mul))  
+print('The division of {0} and {1} is {2}'.format(num1, num2, div))  
+  
