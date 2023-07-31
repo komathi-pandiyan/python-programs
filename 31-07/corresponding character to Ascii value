@@ -1,0 +1,6 @@
+ascii_value = int(input("Enter an ASCII value: "))
+if 0 <= ascii_value <= 127:
+    char = chr(ascii_value)
+    print("The corresponding character is:", char)
+else:
+    print("Invalid input: Please enter an ASCII value between 0 and 127.")
