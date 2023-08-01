@@ -1,0 +1,4 @@
+N = 2
+R = 2
+mod=((10**9)+7)
+print (pow(N,R,mod))
