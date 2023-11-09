@@ -1,0 +1,12 @@
+def generate_fibonacci(N):
+    fibonacci_series = []
+    a, b = 1, 1
+
+    for _ in range(N):
+        fibonacci_series.append(a)
+        a, b = b, a + b
+
+    return fibonacci_series
+N = 5
+result = generate_fibonacci(N)
+print(result)
